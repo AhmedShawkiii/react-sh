@@ -125,5 +125,151 @@
       <track src="assets/videos/ar.vtt" label="ar" />
       <track src="assets/videos/ar.vtt" label="en" />
     </video>
+<hr/>
+    <div>
+    <h1>Book Store</h1>
+    <p>This Is My Book Store, Welcome</p>
+  </div>
+  <form action="" method="get"novalidate target="_blank">
+    <input type="hidden">
+    <div>
+      <label>Username</label>
+      <input type="text" required placeholder="Username" name="user">
+    </div>
+    <br>
+    <div>
+      <label>Subject</label>
+      <input type="text" name="subject" outofocus>
+    </div>
+    <br>
+    <div>
+      <label>Password</label>
+      <input type="password" required placeholder="Write A Complex Password" name="pass" minlength="8" maxlength="12">
+    </div>
+    <br>
+    <div>
+      <label>Email</label>
+      <input type="email" required placeholder="Write A Valid Email" value="o@nn.sa" name="mail" disabled>
+    </div>
+    <div>
+      <label>range</label>
+      <input type="range" name="range" min="0" max="100" step="20" value="0  ">
+    </div>
+    <br>
+    <div>
+      <label for="num">number</label>
+      <input  id="num" type="number" name="number" min="0" max="1000000" speed>
+
+    </div>
+    <br>
+    <div>
+      
+      <input  id="win" type="radio"name="os" value="windos"checked>
+      <label for="win">windos</label>
+    </div>
+    <div>
+      
+      <input id="os" type="radio"name="os" value="mac">
+      <label for="os">mac</label>
+    </div>
+    <div>
+      
+      <input id="lin" type="radio"name="os" value="linx">
+      <label for="lin">linx</label>
+    </div>
+    
+    <br>
+    <hr>
+    <div>
+      
+      <input  id="win1" type="checkbox"name="os" value="windos"checked>
+      <label for="win1">windos</label>
+    </div>
+    <div>
+      
+      <input id="os1" type="checkbox"name="os" value="mac">
+      <label for="os1">mac</label>
+    </div>
+    <div>
+      
+      <input id="lin1" type="checkbox"name="os" value="linx">
+      <label for="lin1">linx</label>
+    </div>
+  <br>
+  
+  <label for="book">Choose book:</label>
+  <select name="book" id="book" >
+    <optgroup label="romantic ">
+      <option value=" 1">book1</option>
+    <option value=" 2">book2</option>
+    <option value=" 3">book3</option>
+    </optgroup>
+    <optgroup label="action book"  >
+      <option value=" 4">book1</option>
+    <option value=" 5" selected>book2</option>
+    <option value=" 6">book3</option>
+    </optgroup>
+    <optgroup label="derama book">
+      <option value=" 7">book1</option>
+    <option value=" 8">book2</option>
+    <option value=" 9">book3</option>
+    </optgroup>
+    
+
+  </select>
+  <hr>
+  <textarea name="subject" cols="40" rows="10" placeholder="Write Something"></textarea>
+ 
+  <br>
+
+  <div>
+    <label for="">upload</label>
+    <input type="file">
+  </div>
+  <br>
+  <div>
+    <label for=""></label>
+    <input type="search">
+
+  </div>
+
+<hr>
+<label for="">url</label>
+<input type="url">
+<hr>
+<br>
+<div>
+
+  <label for="">date</label>
+  <input type="date">
+</div>
+<hr>
+<div>
+
+  <label for="">month</label>
+  <input type="month">
+</div>
+<br> <hr>
+<div>
+
+  <label for=""><time datetime=""></time></label>
+  <input type="time">
+</div>
+<br><hr>
+
+<input list="programing" name="prog">
+<datalist id="programing">
+  <option value="python">
+  <option value="java">
+  <option value="php">
+  <option value="c">
+  <option value="c#">
+</datalist>
+
+<hr>
+  <input type="submit" value="Save">
+  <input type="reset">
+  </form>
+    
   </body>
 </html>
